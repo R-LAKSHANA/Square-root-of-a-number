@@ -8,24 +8,28 @@ To write a program to find the square root of a number.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. Define a function.
-2. Assign number_iters = 100 in the function to perform 100 iteratios.
-3. Set i = 0.
-4. Calculate  number = 0.5 * (number + a / number) for 100 iterations.
-5. Return number
+1. Get the value from the user.
+2. Set number = 1.
+3. Assign number_iters = 10 in the for() loop to perform 10 iteratios.
+4. Calculate  number = 0.5 * (number + a / number) for 10 iterations.
+5. Print the number
 
 ## Program:
-```
-/*
+```python
+'''
 Program to find the square root for the given number(newton's method) using function.
 Developed by: 
 RegisterNumber:  
-*/
+'''
+num=int(input())
+x=1
+for i in range(10):
+    x=0.5*(x+num/x)
+print("Square root of the number:",x)
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
-
+![output](Output.png)
 
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
