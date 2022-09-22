@@ -18,8 +18,8 @@ To write a program to find the square root of a number.
 ```python
 '''
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by: R LAKSHANA
+RegisterNumber: 22004909
 '''
 num=int(input())
 x=1
